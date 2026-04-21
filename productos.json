@@ -1,0 +1,730 @@
+[
+  {
+    "nombre": "Bass pro 1",
+    "precio": 55000,
+    "referencia": "BASSPRO1",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-1.jpeg"
+  },
+  {
+    "nombre": "Bass pro 2",
+    "precio": 55000,
+    "referencia": "BASSPRO2",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-2.jpeg"
+  },
+  {
+    "nombre": "Bass pro 3",
+    "precio": 55000,
+    "referencia": "BASSPRO3",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-3.jpeg"
+  },
+  {
+    "nombre": "Bass pro 4",
+    "precio": 55000,
+    "referencia": "BASSPRO4",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-4.jpeg"
+  },
+  {
+    "nombre": "Bass pro 5",
+    "precio": 55000,
+    "referencia": "BASSPRO5",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-5.jpeg"
+  },
+  {
+    "nombre": "Bass pro 6",
+    "precio": 55000,
+    "referencia": "BASSPRO6",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-6.jpeg"
+  },
+  {
+    "nombre": "Bass pro original blanca",
+    "precio": 90000,
+    "referencia": "BASSPRO7",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-original-blanca.jpeg"
+  },
+  {
+    "nombre": "Bass pro original",
+    "precio": 90000,
+    "referencia": "BASSPRO8",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro-original.jpeg"
+  },
+  {
+    "nombre": "Bass pro",
+    "precio": 55000,
+    "referencia": "BASSPRO9",
+    "categoria": "bass-pro",
+    "imagen": "img/bass-pro/bass-pro.jpeg"
+  },
+  {
+    "nombre": "Beisbolera 1",
+    "precio": 40000,
+    "referencia": "BEISBOLERA1",
+    "categoria": "beisbolera",
+    "imagen": "img/beisbolera/beisbolera-1.jpeg"
+  },
+  {
+    "nombre": "Beisbolera 2",
+    "precio": 40000,
+    "referencia": "BEISBOLERA2",
+    "categoria": "beisbolera",
+    "imagen": "img/beisbolera/beisbolera-2.jpeg"
+  },
+  {
+    "nombre": "Beisbolera",
+    "precio": 40000,
+    "referencia": "BEISBOLERA3",
+    "categoria": "beisbolera",
+    "imagen": "img/beisbolera/beisbolera.jpeg"
+  },
+  {
+    "nombre": "Boston azul",
+    "precio": 40000,
+    "referencia": "BEISBOLERA4",
+    "categoria": "beisbolera",
+    "imagen": "img/beisbolera/boston-azul.jpeg"
+  },
+  {
+    "nombre": "Boston roja",
+    "precio": 40000,
+    "referencia": "BEISBOLERA5",
+    "categoria": "beisbolera",
+    "imagen": "img/beisbolera/boston-roja.jpeg"
+  },
+  {
+    "nombre": "La roja",
+    "precio": 45000,
+    "referencia": "BEISBOLERA6",
+    "categoria": "beisbolera",
+    "imagen": "img/beisbolera/la-roja.jpeg"
+  },
+  {
+    "nombre": "G5 turca beware",
+    "precio": 55000,
+    "referencia": "G5TURCAS1",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-beware.jpeg"
+  },
+  {
+    "nombre": "G5 turca cabra negra",
+    "precio": 55000,
+    "referencia": "G5TURCAS2",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-cabra-negra.jpeg"
+  },
+  {
+    "nombre": "G5 turca cabra",
+    "precio": 55000,
+    "referencia": "G5TURCAS3",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-cabra.jpeg"
+  },
+  {
+    "nombre": "G5 turca cobra",
+    "precio": 55000,
+    "referencia": "G5TURCAS4",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-cobra.jpeg"
+  },
+  {
+    "nombre": "G5 turca especial",
+    "precio": 55000,
+    "referencia": "G5TURCAS5",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-especial.jpeg"
+  },
+  {
+    "nombre": "G5 turca mapache",
+    "precio": 55000,
+    "referencia": "G5TURCAS6",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-mapache.jpeg"
+  },
+  {
+    "nombre": "G5 turca oso",
+    "precio": 55000,
+    "referencia": "G5TURCAS7",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-oso.jpeg"
+  },
+  {
+    "nombre": "G5 turca pantera",
+    "precio": 55000,
+    "referencia": "G5TURCAS8",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-pantera.jpeg"
+  },
+  {
+    "nombre": "G5 turca perro",
+    "precio": 55000,
+    "referencia": "G5TURCAS9",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-perro.jpeg"
+  },
+  {
+    "nombre": "G5 turca plex",
+    "precio": 55000,
+    "referencia": "G5TURCAS10",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-plex.jpeg"
+  },
+  {
+    "nombre": "G5 turca tigre blanco",
+    "precio": 55000,
+    "referencia": "G5TURCAS11",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-tigre-blanco.jpeg"
+  },
+  {
+    "nombre": "G5 turca tigre",
+    "precio": 55000,
+    "referencia": "G5TURCAS12",
+    "categoria": "g5-turcas",
+    "imagen": "img/g5-turcas/g5-turca-tigre.jpeg"
+  },
+  {
+    "nombre": "Goorin bro abeja",
+    "precio": 40000,
+    "referencia": "GOORINBROS1",
+    "categoria": "goorin-bros",
+    "imagen": "img/goorin-bros/goorin-bro-abeja.png"
+  },
+  {
+    "nombre": "Goorin bro caballo",
+    "precio": 40000,
+    "referencia": "GOORINBROS2",
+    "categoria": "goorin-bros",
+    "imagen": "img/goorin-bros/goorin-bro-caballo.png"
+  },
+  {
+    "nombre": "Goorin bro lobo",
+    "precio": 40000,
+    "referencia": "GOORINBROS3",
+    "categoria": "goorin-bros",
+    "imagen": "img/goorin-bros/goorin-bro-lobo.png"
+  },
+  {
+    "nombre": "Goorin bro tigre",
+    "precio": 40000,
+    "referencia": "GOORINBROS4",
+    "categoria": "goorin-bros",
+    "imagen": "img/goorin-bros/goorin-bro-tigre.png"
+  },
+  {
+    "nombre": "Goorin bros leon",
+    "precio": 40000,
+    "referencia": "GOORINBROS5",
+    "categoria": "goorin-bros",
+    "imagen": "img/goorin-bros/goorin-bros-leon.png"
+  },
+  {
+    "nombre": "Caballista",
+    "precio": 65000,
+    "referencia": "GORRASMEXICANAS1",
+    "categoria": "gorras-mexicanas",
+    "imagen": "img/gorras-mexicanas/caballista.jpg"
+  },
+  {
+    "nombre": "Doble pp rosones",
+    "precio": 65000,
+    "referencia": "GORRASMEXICANAS2",
+    "categoria": "gorras-mexicanas",
+    "imagen": "img/gorras-mexicanas/doble-pp-rosones.jpg"
+  },
+  {
+    "nombre": "Mexicana cruz",
+    "precio": 60000,
+    "referencia": "GORRASMEXICANAS3",
+    "categoria": "gorras-mexicanas",
+    "imagen": "img/gorras-mexicanas/mexicana-cruz.jpg"
+  },
+  {
+    "nombre": "Rich forever",
+    "precio": 65000,
+    "referencia": "GORRASMEXICANAS4",
+    "categoria": "gorras-mexicanas",
+    "imagen": "img/gorras-mexicanas/rich-forever.jpg"
+  },
+  {
+    "nombre": "Virgen rosada",
+    "precio": 55000,
+    "referencia": "GORRASMEXICANAS5",
+    "categoria": "gorras-mexicanas",
+    "imagen": "img/gorras-mexicanas/virgen-rosada.jpg"
+  },
+  {
+    "nombre": "Amiri negra",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM1",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/amiri negra.png"
+  },
+  {
+    "nombre": "Chorme_hearts hollywood",
+    "precio": 70000,
+    "referencia": "GORRASPREMIUM2",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/chorme_hearts-hollywood.png"
+  },
+  {
+    "nombre": "Chrome_hearts negra ",
+    "precio": 50000,
+    "referencia": "GORRASPREMIUM3",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/chrome_hearts-negra .png"
+  },
+  {
+    "nombre": "Cruz",
+    "precio": 70000,
+    "referencia": "GORRASPREMIUM4",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/cruz.png"
+  },
+  {
+    "nombre": "New negra",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM5",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/new negra.png"
+  },
+  {
+    "nombre": "New negra",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM6",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/new-negra.png"
+  },
+  {
+    "nombre": "New_billo",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM7",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/new_billo.png"
+  },
+  {
+    "nombre": "New_negra_cruz",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM8",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/new_negra_cruz.png"
+  },
+  {
+    "nombre": "Premium la",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM9",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/premium-la.png"
+  },
+  {
+    "nombre": "Premium negra",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM10",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/premium-negra.png"
+  },
+  {
+    "nombre": "Tres cruz",
+    "precio": 65000,
+    "referencia": "GORRASPREMIUM11",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/tres-cruz.png"
+  },
+  {
+    "nombre": "Y_out",
+    "precio": 60000,
+    "referencia": "GORRASPREMIUM12",
+    "categoria": "gorras-premium",
+    "imagen": "img/gorras-premium/y_out.png"
+  },
+  {
+    "nombre": "Vintage angeles",
+    "precio": 30000,
+    "referencia": "GORRASVINTAGE1",
+    "categoria": "gorras-vintage",
+    "imagen": "img/gorras-vintage/vintage-angeles.png"
+  },
+  {
+    "nombre": "Vintage azul",
+    "precio": 30000,
+    "referencia": "GORRASVINTAGE2",
+    "categoria": "gorras-vintage",
+    "imagen": "img/gorras-vintage/vintage-azul.png"
+  },
+  {
+    "nombre": "Vintage clasica",
+    "precio": 30000,
+    "referencia": "GORRASVINTAGE3",
+    "categoria": "gorras-vintage",
+    "imagen": "img/gorras-vintage/vintage-clasica.png"
+  },
+  {
+    "nombre": "Vintage milano",
+    "precio": 30000,
+    "referencia": "GORRASVINTAGE4",
+    "categoria": "gorras-vintage",
+    "imagen": "img/gorras-vintage/vintage-milano.png"
+  },
+  {
+    "nombre": "Vintage pepper",
+    "precio": 30000,
+    "referencia": "GORRASVINTAGE5",
+    "categoria": "gorras-vintage",
+    "imagen": "img/gorras-vintage/vintage-pepper.png"
+  },
+  {
+    "nombre": "Vintage roja",
+    "precio": 30000,
+    "referencia": "GORRASVINTAGE6",
+    "categoria": "gorras-vintage",
+    "imagen": "img/gorras-vintage/vintage-roja.png"
+  },
+  {
+    "nombre": "Vintage vinotinto",
+    "precio": 30000,
+    "referencia": "GORRASVINTAGE7",
+    "categoria": "gorras-vintage",
+    "imagen": "img/gorras-vintage/vintage-vinotinto.png"
+  },
+  {
+    "nombre": "Adler",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS1",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/adler.jpg"
+  },
+  {
+    "nombre": "Bmw",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS2",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/bmw.jpg"
+  },
+  {
+    "nombre": "Clemont blanca roja",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS3",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/clemont-blanca-roja.jpg"
+  },
+  {
+    "nombre": "Clemont clasica",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS4",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/clemont-clasica.jpg"
+  },
+  {
+    "nombre": "Clemont",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS5",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/Clemont.jpg"
+  },
+  {
+    "nombre": "Coach",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS6",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/coach.jpg"
+  },
+  {
+    "nombre": "Colombia azul",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS7",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/colombia-azul.jpg"
+  },
+  {
+    "nombre": "Colombia negra",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS8",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/colombia-negra.jpg"
+  },
+  {
+    "nombre": "Columbia azul mapa",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS9",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-azul-mapa.jpg"
+  },
+  {
+    "nombre": "Columbia azul pfg",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS10",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-azul-pfg.jpg"
+  },
+  {
+    "nombre": "Columbia blanca pfg",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS11",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-blanca-pfg.jpg"
+  },
+  {
+    "nombre": "Columbia blanca",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS12",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-blanca.jpg"
+  },
+  {
+    "nombre": "Columbia dorada",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS13",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-dorada.jpg"
+  },
+  {
+    "nombre": "Columbia etiqueta",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS14",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-etiqueta.jpg"
+  },
+  {
+    "nombre": "Columbia gris",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS15",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-gris.jpg"
+  },
+  {
+    "nombre": "Columbia mapa",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS16",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-mapa.jpg"
+  },
+  {
+    "nombre": "Columbia marron",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS17",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-marron.jpg"
+  },
+  {
+    "nombre": "Columbia negra blanca",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS18",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-negra-blanca.jpg"
+  },
+  {
+    "nombre": "Columbia negra pfg",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS19",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-negra-pfg.jpg"
+  },
+  {
+    "nombre": "Columbia negra roja",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS20",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-negra-roja.jpg"
+  },
+  {
+    "nombre": "Columbia negra",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS21",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-negra.jpg"
+  },
+  {
+    "nombre": "Columbia roja dorada",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS22",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/columbia-roja-dorada.jpg"
+  },
+  {
+    "nombre": "Dsquared",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS23",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/dsquared.jpg"
+  },
+  {
+    "nombre": "Eladio carrion",
+    "precio": 40000,
+    "referencia": "MULTIMARCAS24",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/eladio-carrion.jpg"
+  },
+  {
+    "nombre": "Hellstar clasica",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS25",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/hellstar-clasica.jpg"
+  },
+  {
+    "nombre": "Hellstar negra",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS26",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/hellstar-negra.jpg"
+  },
+  {
+    "nombre": "Hellstar rosada",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS27",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/hellstar-rosada.jpg"
+  },
+  {
+    "nombre": "Hugo negra",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS28",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/hugo-negra.jpg"
+  },
+  {
+    "nombre": "John deere negra blanca",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS29",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/john-deere-negra-blanca.jpg"
+  },
+  {
+    "nombre": "John deere negra roja",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS30",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/john-deere-negra-roja.jpg"
+  },
+  {
+    "nombre": "John deere negra",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS31",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/john-deere-negra.jpg"
+  },
+  {
+    "nombre": "John deere",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS32",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/john-deere.jpg"
+  },
+  {
+    "nombre": "La coste azul",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS33",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/la-coste-azul.jpg"
+  },
+  {
+    "nombre": "La coste blanca",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS34",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/la-coste-blanca.jpg"
+  },
+  {
+    "nombre": "La coste clasica",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS35",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/la-coste-clasica.jpg"
+  },
+  {
+    "nombre": "La coste negra",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS36",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/la-coste-negra.jpg"
+  },
+  {
+    "nombre": "La coste roja",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS37",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/la-coste-roja.jpg"
+  },
+  {
+    "nombre": "La coste verde",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS38",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/la-coste-verde.jpg"
+  },
+  {
+    "nombre": "La cumbre",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS39",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/la-cumbre.jpg"
+  },
+  {
+    "nombre": "Mercedez",
+    "precio": 40000,
+    "referencia": "MULTIMARCAS40",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/mercedez.jpg"
+  },
+  {
+    "nombre": "Nike clasica negra",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS41",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/nike-clasica-negra.jpg"
+  },
+  {
+    "nombre": "Nike clasica",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS42",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/nike-clasica.jpg"
+  },
+  {
+    "nombre": "Nike llamas dorada",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS43",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/nike-llamas-dorada.png"
+  },
+  {
+    "nombre": "Nike llamas rojas",
+    "precio": 50000,
+    "referencia": "MULTIMARCAS44",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/nike-llamas-rojas.jpg"
+  },
+  {
+    "nombre": "Nort face",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS45",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/nort-face.jpg"
+  },
+  {
+    "nombre": "Psycho",
+    "precio": 40000,
+    "referencia": "MULTIMARCAS46",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/psycho.png"
+  },
+  {
+    "nombre": "Rosario blanca",
+    "precio": 55000,
+    "referencia": "MULTIMARCAS47",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/rosario-blanca.jpg"
+  },
+  {
+    "nombre": "Visera alo",
+    "precio": 45000,
+    "referencia": "MULTIMARCAS48",
+    "categoria": "multimarcas",
+    "imagen": "img/multimarcas/visera-alo.jpg"
+  }
+]

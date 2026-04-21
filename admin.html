@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Urban Time</title>
+
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 260px;
+      padding: 10px;
+      margin: 8px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      padding: 12px 25px;
+      background: #e63946;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #c1121f;
+    }
+  </style>
+
+</head>
+<body>
+
+<h2>Panel Admin - Urban Time</h2>
+
+<input type="text" id="nombre" placeholder="Nombre de la gorra"><br> <input type="number" id="precio" placeholder="Precio"><br> <input type="text" id="categoria" placeholder="Categoria (ej: gorras-premium)"><br> <input type="text" id="referencia" placeholder="Referencia"><br>
+
+<input type="file" id="imagen"><br><br>
+
+<button onclick="subirProducto()">Subir producto</button>
+
+<script type="module">
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
+
+/* 🔥 PEGA AQUÍ TU CONFIG REAL DE FIREBASE */
+const firebaseConfig = {
+ apiKey: "AIzaSyC7nReKQpG80ATllTW4aq5iIyIajQZKI7Y",
+  authDomain: "urban-time-d3f2c.firebaseapp.com",
+  projectId: "urban-time-d3f2c",
+  storageBucket: "urban-time-d3f2c.firebasestorage.app",
+  messagingSenderId: "197913267928",
+  appId: "1:197913267928:web:580e616efbc678808c11ad",
+  measurementId: "G-WKF1PYN4K5"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+const storage = getStorage(app);
+
+window.subirProducto = async function () {
+
+  const nombre = document.getElementById("nombre").value;
+  const precio = document.getElementById("precio").value;
+  const categoria = document.getElementById("categoria").value;
+  const referencia = document.getElementById("referencia").value;
+  const archivo = document.getElementById("imagen").files[0];
+
+  if (!nombre || !precio || !categoria || !referencia || !archivo) {
+    alert("⚠️ Completa todos los campos");
+    return;
+  }
+
+  try {
+    // Nombre único para la imagen
+    const nombreArchivo = Date.now() + "_" + archivo.name;
+
+    const storageRef = ref(storage, "gorras/" + nombreArchivo);
+
+    await uploadBytes(storageRef, archivo);
+
+    const url = await getDownloadURL(storageRef);
+
+    await addDoc(collection(db, "productos"), {
+      nombre,
+      precio: Number(precio),
+      categoria,
+      referencia,
+      imagen: url
+    });
+
+    alert("✅ Producto subido correctamente");
+
+  } catch (error) {
+    console.error(error);
+    alert("❌ Error al subir producto");
+  }
+};
+
+</script>
+
+</body>
+</html>
