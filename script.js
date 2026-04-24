@@ -55,7 +55,7 @@ function mostrarProductos() {
 
   contenedor.innerHTML = filtrados.map(producto => {
     const mensaje = `Hola, estoy interesado en la ${producto.nombre} referencia ${producto.referencia}`;
-    const linkWhatsApp = `https://wa.me/573017399372?text=${encodeURIComponent(mensaje)}`;
+    const linkWhatsApp = `https://wa.me/573003913904?text=${encodeURIComponent(mensaje)}`;
 
     return `
       <div class="card">
