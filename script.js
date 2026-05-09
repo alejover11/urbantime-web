@@ -54,17 +54,53 @@ function mostrarProductos() {
     : productos.filter(p => p.categoria === categoriaActual);
 
   contenedor.innerHTML = filtrados.map(producto => {
-    const mensaje = `Hola, estoy interesado en la ${producto.nombre} referencia ${producto.referencia}`;
+
+    // URL DE TU PAGINA
+    const urlBase = "https://alejover11.github.io/urbantime-web/";
+
+    // URL completa de imagen
+    const imagenCompleta = urlBase + producto.imagen;
+
+    // Mensaje WhatsApp
+    // Link directo al producto
+const linkProducto = `${urlBase}#${producto.referencia}`;
+
+// Mensaje WhatsApp
+const mensaje = `
+Hola, estoy interesado en esta gorra:
+
+    \u{1F9E2} Modelo: ${producto.nombre}
+   \u{1F194} Referencia: ${producto.referencia}
+   \u{1F4B2} Precio: $${producto.precio.toLocaleString()}
+
+   \u{1F4F8} Imagen:
+   ${imagenCompleta}
+
+   \u{1F517} Producto:
+   ${linkProducto}
+`;
+
+    // Link WhatsApp
     const linkWhatsApp = `https://wa.me/573003913904?text=${encodeURIComponent(mensaje)}`;
 
     return `
-      <div class="card">
+     <div class="card" id="${producto.referencia}">
         <div class="img-container" style="overflow:hidden; border-radius:4px;">
            <img src="${producto.imagen}" alt="${producto.nombre}" style="transition: transform 0.5s ease; width: 100%; display: block;">
         </div>
-        <h3 style="margin-top:15px; font-size:18px;">${producto.nombre}</h3>
-        <p class="price">$${producto.precio.toLocaleString()}</p> 
-        <p style="color: #666; font-size: 12px; margin-bottom: 15px;">Ref: ${producto.referencia}</p>
+
+        <h3 style="margin-top:15px; font-size:18px;">
+          ${producto.nombre}
+        </h3>
+
+        <p class="price">
+          $${producto.precio.toLocaleString()}
+        </p> 
+
+        <p style="color: #666; font-size: 12px; margin-bottom: 15px;">
+          Ref: ${producto.referencia}
+        </p>
+
         <a href="${linkWhatsApp}" target="_blank" class="whatsapp">
           Pedir por WhatsApp
         </a>
